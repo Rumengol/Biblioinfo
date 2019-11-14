@@ -1,0 +1,91 @@
+body{
+    background: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h2{
+    margin: 6%;
+    margin-bottom: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    padding:3%;
+    padding-top:0%;
+    margin-top:0%;
+    color: black;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0px;
+}
+
+#intro p{
+    margin-bottom: 0%;
+}
+
+#Nuage{
+    margin-top: -30px;
+    clip-path: circle(35%);
+}
+
+#contenu{
+    background: orangered;
+    margin: auto;
+    width:93%;
+    border-radius:5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display:flex;
+    flex-direction: row;
+    padding:4%;
+    margin-left:-50px;
+}
+
+.source{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+aside{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top:0%;
+    margin-top:0%;
+}
+
+#contenu img{
+    max-width:50%;
+    background-color:white;
+}
+
+#banniere{
+    width:100%; 
+}
+
+.biblio{
+    margin-top:2%;
+    padding: 2%;
+    border:solid 2px black;
+    border-radius: 5px;
+}
