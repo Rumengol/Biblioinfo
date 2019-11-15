@@ -6,7 +6,7 @@ body{
 
 h2{
     margin: 6%;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
     font-family: 'Times New Roman', Times, serif;
     font-size:2em;
     font-weight: bold;
@@ -40,7 +40,7 @@ p{
 }
 
 #contenu{
-    background: orangered;
+    background: #c23616;
     margin: auto;
     width:93%;
     border-radius:5px;
@@ -96,6 +96,7 @@ hr{
     width:90%;
     position:relative;
     right:20px;
+    margin-bottom: 0%;
 }
 
 footer{
@@ -108,4 +109,18 @@ footer p{
     margin-top:1%;
     color:white;
     margin-bottom:0%;
+    text-align: center;
+}
+
+
+
+h3{
+    background-image:linear-gradient(black,white);
+    margin: auto;
+    margin-top:0%;
+    text-align: center;
+    display:table;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size:1.4em;
 }
