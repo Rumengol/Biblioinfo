@@ -89,3 +89,23 @@ aside{
     border:solid 2px black;
     border-radius: 5px;
 }
+
+hr{
+    border:solid 4px black;
+    border-radius:4px;
+    width:90%;
+    position:relative;
+    right:20px;
+}
+
+footer{
+    border-top:10px solid orangered;
+    background-color: black;
+    color: white;
+}
+ 
+footer p{
+    margin-top:1%;
+    color:white;
+    margin-bottom:0%;
+}
